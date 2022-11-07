@@ -25606,6 +25606,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="241.3" y="7.62" size="2.54" layer="94" font="vector" align="center">v03</text>
 <text x="180.34" y="12.7" size="2.54" layer="94" font="vector" align="center">Ricardo Ramos</text>
 <text x="167.64" y="7.62" size="2.54" layer="94" font="vector" align="center">Revised by:  Dryw Wade</text>
+<text x="35.56" y="113.03" size="1.27" layer="97" font="vector">7-bit I2C Addresses:
+0x53 - User Memory
+0x57 - System Memory
+0x51 - RF Switch Off
+0x55 - RF Switch On</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="35.56" y="132.08" smashed="yes">
