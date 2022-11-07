@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -5088,7 +5088,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="R4" pad="2"/>
 <wire x1="16.09" y1="11.43" x2="16.09" y2="10.834" width="0.1778" layer="1"/>
 <wire x1="16.09" y1="10.834" x2="16.637" y2="10.287" width="0.1778" layer="1"/>
-<via x="16.637" y="10.287" extent="1-16" drill="0.35"/>
+<via x="16.637" y="10.287" extent="1-16" drill="0.3048"/>
 <wire x1="16.637" y1="10.287" x2="16.0147" y2="10.9093" width="0.1778" layer="16"/>
 <wire x1="16.0147" y1="10.9093" x2="15.24" y2="10.9093" width="0.1778" layer="16"/>
 </signal>
@@ -5106,7 +5106,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <approved hash="19,1,bc82bdd6e5eae4be"/>
 <approved hash="19,16,f2659a2e7f24321a"/>
 <approved hash="19,16,3b0d15a66c50caba"/>
-<approved hash="19,16,2badfccf969e4f05"/>
 <approved hash="19,16,3b1d1dbe6414cab2"/>
 <approved hash="4,1,571fa9912bac985e"/>
 <approved hash="4,1,7744fe4dbbd032f4"/>
@@ -5116,6 +5115,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <approved hash="4,16,7744fe4dbbd032f4"/>
 <approved hash="5,1,61295e072797a49f"/>
 <approved hash="5,1,05ecc0cb774e3b8c"/>
+<approved hash="19,16,c5124338ed6c65bf"/>
 </errors>
 </board>
 </drawing>

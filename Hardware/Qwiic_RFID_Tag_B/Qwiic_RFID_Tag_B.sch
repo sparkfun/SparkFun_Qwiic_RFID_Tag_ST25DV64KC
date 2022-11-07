@@ -25586,23 +25586,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="116.84" y="172.72" size="2.54" layer="94" font="vector" align="center">I2C Pullup</text>
 <text x="172.72" y="172.72" size="2.54" layer="94" font="vector" align="center">Power LED</text>
 <text x="223.52" y="172.72" size="2.54" layer="94" font="vector" align="center">!GPO! Pullup</text>
-<text x="45.72" y="170.18" size="2.54" layer="94" font="vector" align="center">ST25DV64KC Dynamic RFID Tag</text>
-<text x="27.94" y="40.64" size="2.54" layer="94" font="vector" align="center">Power decoupling</text>
+<text x="45.72" y="170.18" size="2.54" layer="94" font="vector" align="center">Dynamic RFID Tag - ST25DV64KC</text>
 <wire x1="0" y1="104.14" x2="88.9" y2="104.14" width="0.2032" layer="97" style="longdash"/>
 <wire x1="88.9" y1="104.14" x2="198.12" y2="104.14" width="0.2032" layer="97" style="longdash"/>
 <wire x1="198.12" y1="104.14" x2="248.92" y2="104.14" width="0.2032" layer="97" style="longdash"/>
 <wire x1="88.9" y1="104.14" x2="88.9" y2="185.42" width="0.2032" layer="97" style="longdash"/>
 <wire x1="0" y1="48.26" x2="0" y2="50.8" width="0.2032" layer="97" style="longdash"/>
-<wire x1="0" y1="50.8" x2="58.42" y2="50.8" width="0.2032" layer="97" style="longdash"/>
-<wire x1="58.42" y1="50.8" x2="88.9" y2="50.8" width="0.2032" layer="97" style="longdash"/>
+<wire x1="0" y1="50.8" x2="88.9" y2="50.8" width="0.2032" layer="97" style="longdash"/>
 <wire x1="88.9" y1="50.8" x2="147.32" y2="50.8" width="0.2032" layer="97" style="longdash"/>
 <wire x1="88.9" y1="104.14" x2="88.9" y2="50.8" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="185.42" x2="147.32" y2="50.8" width="0.2032" layer="97" style="longdash"/>
 <wire x1="198.12" y1="104.14" x2="198.12" y2="185.42" width="0.2032" layer="97" style="longdash"/>
-<text x="104.14" y="168.91" size="1.27" layer="97" font="vector">Cut trace to disable I2C pullups</text>
+<text x="104.14" y="168.91" size="1.27" layer="97" font="vector">Cut traces to disable I2C pullups</text>
 <text x="45.72" y="59.69" size="1.27" layer="97" font="vector" align="center">C2 may be changed to improve circuit resonance.
 5.6 pF is the initial calculated value.</text>
-<wire x1="58.42" y1="50.8" x2="58.42" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="50.8" x2="147.32" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 <text x="241.3" y="7.62" size="2.54" layer="94" font="vector" align="center">v03</text>
 <text x="180.34" y="12.7" size="2.54" layer="94" font="vector" align="center">Ricardo Ramos</text>
@@ -25678,19 +25675,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="220.472" y="147.32" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="226.568" y="147.32" size="1.778" layer="96" font="vector" rot="R90" align="center" display="off"/>
 </instance>
-<instance part="C1" gate="G$1" x="27.94" y="20.32" smashed="yes">
-<attribute name="NAME" x="29.464" y="23.241" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="29.464" y="18.161" size="1.778" layer="96" font="vector"/>
+<instance part="C1" gate="G$1" x="12.7" y="137.16" smashed="yes">
+<attribute name="NAME" x="14.224" y="140.081" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="14.224" y="135.001" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J3" gate="JP1" x="111.76" y="71.12" smashed="yes">
 <attribute name="VALUE" x="106.68" y="61.214" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="106.68" y="81.788" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="27.94" y="27.94" smashed="yes">
-<attribute name="VALUE" x="27.94" y="30.734" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="12.7" y="144.78" smashed="yes">
+<attribute name="VALUE" x="12.7" y="147.574" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND1" gate="1" x="27.94" y="12.7" smashed="yes">
-<attribute name="VALUE" x="27.94" y="12.446" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="12.7" y="129.54" smashed="yes">
+<attribute name="VALUE" x="12.7" y="129.286" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="30.48" y="147.32" smashed="yes">
 <attribute name="VALUE" x="30.48" y="150.114" size="1.778" layer="96" align="bottom-center"/>
@@ -25715,8 +25712,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FD2" gate="G$1" x="233.68" y="27.94" smashed="yes"/>
 <instance part="FD3" gate="G$1" x="231.14" y="30.48" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="233.68" y="30.48" smashed="yes"/>
-<instance part="LOGO1" gate="G$1" x="83.82" y="33.02" smashed="yes"/>
-<instance part="LOGO3" gate="G$1" x="116.84" y="33.02" smashed="yes"/>
+<instance part="LOGO1" gate="G$1" x="53.34" y="22.86" smashed="yes"/>
+<instance part="LOGO3" gate="G$1" x="27.94" y="22.86" smashed="yes"/>
 <instance part="H3" gate="G$1" x="238.76" y="30.48" smashed="yes"/>
 <instance part="H4" gate="G$1" x="241.3" y="30.48" smashed="yes"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -25727,7 +25724,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="LOGO2" gate="G$1" x="71.12" y="2.54" smashed="yes"/>
+<instance part="LOGO2" gate="G$1" x="71.12" y="12.7" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -25747,7 +25744,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="134.62" x2="12.7" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -25787,7 +25784,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="25.4" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="142.24" x2="12.7" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
