@@ -25609,6 +25609,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 0x57 - System Memory
 0x51 - RF Switch Off
 0x55 - RF Switch On</text>
+<text x="35.56" y="156.21" size="1.27" layer="97" font="vector">Input voltage range:
+1.8V - 5.5V</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="35.56" y="132.08" smashed="yes">
