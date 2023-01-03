@@ -199,7 +199,7 @@
 <wire x1="25.38" y1="0" x2="25.4" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="1.27" y="8.89" size="1.27" layer="16" font="vector" ratio="15" rot="SMR90" align="center">v10</text>
+<text x="1.27" y="8.89" size="1.27" layer="16" font="vector" ratio="15" rot="SMR90" align="center">v11</text>
 <text x="-8.89" y="-2.54" size="1.524" layer="47" font="vector" align="bottom-center">Units: inches</text>
 <dimension x1="0" y1="0" x2="2.54" y2="0" x3="1.27" y3="-3.81" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="6.35" y2="0" x3="3.175" y3="-7.62" textsize="1.778" textratio="15" layer="47" unit="inch"/>

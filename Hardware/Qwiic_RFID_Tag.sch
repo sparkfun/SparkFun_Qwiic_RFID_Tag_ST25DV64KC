@@ -25601,7 +25601,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="45.72" y="59.69" size="1.27" layer="97" font="vector" align="center">C2 may be changed to improve circuit resonance.
 5.6 pF is the initial calculated value.</text>
 <wire x1="147.32" y1="50.8" x2="147.32" y2="35.56" width="0.2032" layer="97" style="longdash"/>
-<text x="241.3" y="7.62" size="2.54" layer="94" font="vector" align="center">v10</text>
+<text x="241.3" y="7.62" size="2.54" layer="94" font="vector" align="center">v11</text>
 <text x="180.34" y="12.7" size="2.54" layer="94" font="vector" align="center">Ricardo Ramos</text>
 <text x="167.64" y="7.62" size="2.54" layer="94" font="vector" align="center">Revised by:  Dryw Wade</text>
 <text x="35.56" y="113.03" size="1.27" layer="97" font="vector">7-bit I2C Addresses:
